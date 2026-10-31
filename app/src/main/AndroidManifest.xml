@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required to load the image / video / audio from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="App"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE489Assignment2">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Second activity of the Broadcast Receiver flow -->
+        <activity
+            android:name=".BroadcastReceiverActivity"
+            android:exported="false"
+            android:label="App"
+            android:theme="@style/Theme.CSE489Assignment2.WithActionBar" />
+
+        <!-- Third activity of the Broadcast Receiver flow -->
+        <activity
+            android:name=".BroadcastResultActivity"
+            android:exported="false"
+            android:label="App"
+            android:theme="@style/Theme.CSE489Assignment2.WithActionBar" />
+    </application>
+
+</manifest>

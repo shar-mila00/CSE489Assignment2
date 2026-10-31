@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Receives the custom broadcast carrying the text message from the
+         second activity. Shows nothing for the battery selection. -->
+    <TextView
+        android:id="@+id/tv_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/waiting_for_broadcast"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:minWidth="140dp"
+        android:text="@string/back" />
+</LinearLayout>

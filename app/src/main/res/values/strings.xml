@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+
+    <!-- Drawer menu -->
+    <string name="menu_broadcast_receiver">Broadcast Receiver</string>
+    <string name="menu_image_scale">Image Scale</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_audio">Audio</string>
+
+    <!-- Broadcast Receiver flow -->
+    <string name="select_broadcast_type">Select a broadcast type</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_message_hint">Enter a message</string>
+    <string name="error_empty_message">Please enter a message</string>
+    <string name="send">Send</string>
+    <string name="next">Next</string>
+    <string name="battery_loading">Battery level: …</string>
+    <string name="battery_level">Battery level: %1$d%%</string>
+    <string name="battery_status_charging">Status: Charging</string>
+    <string name="battery_status_not_charging">Status: Not Charging</string>
+    <string name="back">Back</string>
+    <string name="more_options">More options</string>
+    <string name="speed_0_5">Playback speed 0.5x</string>
+    <string name="speed_1">Playback speed 1x (normal)</string>
+    <string name="speed_1_5">Playback speed 1.5x</string>
+    <string name="speed_2">Playback speed 2x</string>
+    <string name="volume">Volume</string>
+    <string name="volume_raised">Media volume was muted, so it was raised. Use the volume buttons to adjust.</string>
+    <string name="waiting_for_broadcast">Waiting for broadcast…</string>
+    <string name="received_message">Received: %1$s</string>
+
+    <!-- Image scale / Video / Audio -->
+    <string name="image_scale_description">Cat image - pinch to zoom in and out, drag to move</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="audio_title">Fake Love (Orchestral Piano Version)</string>
+    <string name="audio_status_loading">Loading audio…</string>
+    <string name="audio_status_ready">Ready to play</string>
+    <string name="audio_status_playing">Playing…</string>
+    <string name="audio_status_paused">Paused</string>
+    <string name="audio_status_stopped">Stopped</string>
+    <string name="audio_status_completed">Completed</string>
+    <string name="audio_status_error">Could not load audio</string>
+    <string name="video_error">Could not play the video</string>
+    <string name="error_loading_image">Failed to load image. Check your internet connection.</string>
+
+    <string-array name="broadcast_types">
+        <item>Custom</item>
+        <item>System Battery</item>
+    </string-array>
+</resources>

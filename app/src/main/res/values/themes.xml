@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 light theme, matching the plain light UI of the
+         assignment screenshots. -->
+    <style name="Theme.CSE489Assignment2" parent="Theme.Material3.Light.NoActionBar" />
+
+    <!-- Same look, but WITH an action bar so the second/third screens
+         can show a back arrow. -->
+    <style name="Theme.CSE489Assignment2.WithActionBar" parent="Theme.Material3.Light" />
+</resources>
